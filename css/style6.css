@@ -1,0 +1,186 @@
+
+/*шрифт*/
+/*@font-face {
+	font-family: 'Helvetica Neue Regular';
+	src: url('../fonts/helveticaneue-thin-webfont.eot');
+	src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+	url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+	url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	}*/
+
+	body{
+		background: #bfbfbf;
+		width: 910px;
+		height: 1290px;
+		padding: 15px 45px 0 45px;
+		margin: 0 auto;
+		font-family: sans-serif;
+	}
+
+	/*верхнее меню*/
+	header{
+		height: 50px;
+		background: grey;
+		color: white;
+	}
+
+	/*центральное фото */
+	.image img{
+		width: 100%;
+	}
+
+	/*главное меню*/
+	.menu{
+		background: black;
+		height: 25px;
+		padding: 5px 0 5px 120px;
+		border-radius: 5px;
+		color: #b1bcc0;
+	}
+	.menu a{
+		display: block;
+		float: left;
+		color: #b1bcc0;
+		padding: 5px 5px;
+		margin: 0 5px;
+		border-radius: 10px;
+		text-decoration: none;
+	}
+	.menu a:hover{
+		color: white;
+		background: #195779;
+	}
+	.menu img{
+		display:block;
+		width: 20px;
+		padding: 5px 20px 5px 50px;
+	}
+
+	/*секция подбора */
+	.select{
+		width: 910px;
+		height: 135px;
+		padding:10px 0;
+	}
+	.avto,.tyre,.disk{
+		float: left;
+		width: 415px;
+		height: 135px;
+		background: white;
+		border-radius: 10px;
+		border:1px solid grey;
+		box-shadow: 2px 2px 5px grey;
+		color: #213a4d;
+	}
+	.letter1 {
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.letter2 {
+		font-size: 10px;
+		font-weight: bold;
+	}
+
+
+	.avto_top p{
+		display: inline-block;
+		background: snow;
+	}
+	.avto .select11 {
+		float: left;
+		width: 50%;
+		background: yellow;
+	}
+	.avto .select12{
+		background: pink;
+	}
+
+	.tyre{
+		float: left;
+		width: 190px;
+		margin-left: 15px;
+	}
+	.disk{
+		float: right;
+		width: 270px;
+	}
+
+	/*левый блок*/
+	aside{
+		width: 180px;
+		height: 630px;
+		background:white;
+	}
+	.left{
+		float: left;
+	}
+	.left img{
+		height: 12px;
+	}
+	.left>ul>li {
+		width: 135px;
+		background: white;
+		border: 1px solid grey;
+		border-radius: 25px;
+		font-size: 12px;
+		color: #213a4d;
+		font-weight: bold;
+		padding: 5px 7px;
+		margin: 5px 0;
+	}
+	.left .left_name {
+		width: 165px;
+		box-shadow: 2px 2px 5px grey;
+		margin-bottom: 15px;
+	}
+	.left_1234 {
+		line-height: 15px;
+		padding-left: 45px;
+		font-size:13px;
+		color: grey;
+	}
+	.left_1234 li:hover{
+		font-size: 14px;
+		color: #213a4d;
+		font-weight: bold;
+		font-style: italic;
+		text-decoration: underline;
+	}
+
+	/*правый блок*/
+	.right{
+		float: right;
+	}
+
+	/*центральный блок*/
+	.center {
+		width: 525px;
+		height: 630px;
+		border-radius: 5px;
+		background: #95a8b1;
+		margin: 0 auto;
+	}
+
+	/*бренды*/
+	.brands{
+		padding: 45px 95px;
+		height: 28px;
+		background: white;
+
+	}
+	.brands img{
+		display:block;
+		float: left;
+		width: 70px;
+		margin-left: 20px;
+	}
+
+	/*футер*/
+	footer{
+		height: 90px;
+		background: #213a4d;
+		color: white;
+	}
